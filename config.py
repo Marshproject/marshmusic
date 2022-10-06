@@ -20,7 +20,7 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 10 mins.
 # Remember to give value in Minutes
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -44,7 +44,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Also without customizing or modifying as your own choice, this must be
 # filled with Ndi Music Bot Main Repository URL in value.
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/Ndiproject/NdiMusicBot"
+    "UPSTREAM_REPO", "https://github.com/Marshproject/marshmusic"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -54,11 +54,11 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 # Don’t use @
 
 if str(getenv("SUPPORT_CHANNEL")).strip() == "":
-    SUPPORT_CHANNEL = None
+    SUPPORT_CHANNEL = https://t.me/QuoteTFZ
 else:
     SUPPORT_CHANNEL = str(getenv("SUPPORT_CHANNEL"))
 if str(getenv("SUPPORT_GROUP")).strip() == "":
-    SUPPORT_GROUP = None
+    SUPPORT_GROUP = https://t.me/+GZW7CjkoSXNkZWVl
 else:
     SUPPORT_GROUP = str(getenv("SUPPORT_GROUP"))
 
