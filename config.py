@@ -54,11 +54,11 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 # Don’t use @
 
 if str(getenv("SUPPORT_CHANNEL")).strip() == "":
-    SUPPORT_CHANNEL = https://t.me/QuoteTFZ
+    SUPPORT_CHANNEL = none
 else:
     SUPPORT_CHANNEL = str(getenv("SUPPORT_CHANNEL"))
 if str(getenv("SUPPORT_GROUP")).strip() == "":
-    SUPPORT_GROUP = https://t.me/+GZW7CjkoSXNkZWVl
+    SUPPORT_GROUP = none
 else:
     SUPPORT_GROUP = str(getenv("SUPPORT_GROUP"))
 
